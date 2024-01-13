@@ -3,8 +3,11 @@ _G.KeyInput = "string"
 
 function MakeScriptHub()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/x2n12/SORPEDSUNGLUYHUB/main/sorped.lua'))()
-
 end
+
+function(Value)
+    _G.KeyInput = Value
+end	  
 
 if _G.KeyInput == _G.Key then
 	function MakeScriptHub()	
